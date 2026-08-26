@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Shyam Library - Quiet and comfortable 24/7 study space in Kunraghat, Gorakhpur near MMMUT. Personal cubicles, AC, Wi-Fi, and affordable monthly shifts.">
+  <title>Shyam Library | 24/7 Study Space in Kunraghat, Gorakhpur</title>
+
+  <!-- Google Fonts: Libre Caslon Text & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Google Material Symbols Outlined -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- Unified Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Shyam Library Home">
+        <span class="material-symbols-outlined logo-crest fill">local_library</span>
+        <span>Shyam Library</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#facilities" class="nav-link">Facilities</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#achievers" class="nav-link">Achievers</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+      </nav>
+
+      <!-- Desktop Action CTA -->
+      <a href="#contact" class="btn btn-gold nav-cta">Book a Seat</a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div style="margin-bottom: 24px;">
+      <a href="#hero" class="brand-logo" style="color: var(--color-primary);">
+        <span class="material-symbols-outlined logo-crest fill"
+          style="color: var(--color-gold-dark);">local_library</span>
+        <span>Shyam Library</span>
+      </a>
+      <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-top: 4px;">Quiet 24/7 Study Space</p>
+    </div>
+
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" class="mobile-nav-link active"><span>Home</span><span
+            class="material-symbols-outlined">chevron_right</span></a></li>
+      <li><a href="#about" class="mobile-nav-link"><span>About Us</span><span
+            class="material-symbols-outlined">chevron_right</span></a></li>
+      <li><a href="#facilities" class="mobile-nav-link"><span>Facilities</span><span
+            class="material-symbols-outlined">chevron_right</span></a></li>
+      <li><a href="#pricing" class="mobile-nav-link"><span>Pricing</span><span
+            class="material-symbols-outlined">chevron_right</span></a></li>
+      <li><a href="#achievers" class="mobile-nav-link"><span>Achievers</span><span
+            class="material-symbols-outlined">chevron_right</span></a></li>
+      <li><a href="#contact" class="mobile-nav-link"><span>Contact Us</span><span
+            class="material-symbols-outlined">chevron_right</span></a></li>
+    </ul>
+
+    <div style="margin-top: auto; padding-top: 20px;">
+      <a href="#contact" class="btn btn-primary" style="width: 100%;">
+        <span class="material-symbols-outlined">edit_note</span>
+        <span>Book a Seat</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       SECTION 1: HERO SECTION
+       ========================================================================= -->
+  <section class="hero-section" id="hero">
+    <!-- Background Video Wrapper -->
+    <div class="hero-video-wrapper">
+      <video id="heroVideo" class="hero-video" autoplay loop muted playsinline preload="auto">
+        <source src="Library.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+
+    <!-- Hero Content Overlay -->
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tagline reveal-fade">
+          <span class="material-symbols-outlined" style="font-size: 1.1rem;">auto_stories</span>
+          <span>Quiet & Peaceful Study Space</span>
+        </div>
+
+        <h1 class="hero-heading reveal-up delay-1">Shyam Library</h1>
+
+        <p class="hero-subheading reveal-up delay-2">
+          A quiet, comfortable place to study 24/7 in Gorakhpur.
+        </p>
+
+        <div class="hero-actions reveal-up delay-3">
+          <a href="#contact" class="btn btn-gold">
+            <span class="material-symbols-outlined">edit_note</span>
+            <span>Book a Seat</span>
+          </a>
+          <a href="#facilities" class="btn btn-outline-white">
+            <span class="material-symbols-outlined">visibility</span>
+            <span>View Facilities</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <a href="#about" class="hero-scroll-indicator" aria-label="Scroll to about section">
+      <span>Scroll to Explore</span>
+      <span class="material-symbols-outlined fill">keyboard_arrow_down</span>
+    </a>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 2: ABOUT US (Alternating Story Blocks)
+       ========================================================================= -->
+  <section class="section-spacing about-section" id="about">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header-center">
+        <span class="section-badge reveal-fade">
+          <span class="material-symbols-outlined" style="font-size: 1rem;">info</span>
+          About Us
+        </span>
+        <h2 class="section-title reveal-up delay-1">Why Choose Shyam Library?</h2>
+        <p class="section-subtitle reveal-up delay-2">
+          A modern study space built to help you focus, prepare, and succeed in your exams.
+        </p>
+      </div>
+
+      <!-- Story Blocks (Alternating) -->
+      <div class="about-blocks">
+        <!-- Block 1: Academic Hub & Proximity -->
+        <div class="about-block">
+          <div class="about-image-wrapper reveal-left">
+            <img src="Hero/Screenshot 2026-08-26 192209.png"
+              alt="Madan Mohan Malaviya University of Technology, Gorakhpur entrance" class="about-img" loading="lazy">
+            <div class="image-badge-floating">
+              <span class="material-symbols-outlined">near_me</span>
+              <span>Near MMMUT Gorakhpur</span>
+            </div>
+          </div>
+          <div class="about-text-wrapper reveal-right">
+            <span class="section-badge" style="margin-bottom: 12px;">Prime Location</span>
+            <h3 class="about-lead">Located Near MMMUT Campus</h3>
+            <p class="about-desc">
+              Situated right near MMMUT Gorakhpur, our library gives you a quiet study spot close to your college and
+              hostels, surrounded by focused students.
+            </p>
+            <div class="about-features-list">
+              <div class="about-feature-item">
+                <span class="material-symbols-outlined">check_circle</span>
+                <span>Just minutes from MMMUT and coaching centers</span>
+              </div>
+              <div class="about-feature-item">
+                <span class="material-symbols-outlined">check_circle</span>
+                <span>Motivated study crowd preparing for competitive exams</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 2: The Study Atmosphere -->
+        <div class="about-block reverse">
+          <div class="about-image-wrapper reveal-right">
+            <img src="photos/WhatsApp Image 2026-08-26 at 4.57.35 PM.jpeg"
+              alt="Student studying in quiet cubicle at Shyam Library" class="about-img" loading="lazy">
+            <div class="image-badge-floating">
+              <span class="material-symbols-outlined">chair</span>
+              <span>Personal Study Desks</span>
+            </div>
+          </div>
+          <div class="about-text-wrapper reveal-left">
+            <span class="section-badge" style="margin-bottom: 12px;">Comfort & Focus</span>
+            <h3 class="about-lead">Personal Desks & Total Silence</h3>
+            <p class="about-desc">
+              Each student gets their own private partitioned desk with a comfortable chair, reading lamp, and charging
+              point in a strictly silent, air-conditioned room.
+            </p>
+            <div class="about-features-list">
+              <div class="about-feature-item">
+                <span class="material-symbols-outlined">check_circle</span>
+                <span>Individual desks with personal lights & charging points</span>
+              </div>
+              <div class="about-feature-item">
+                <span class="material-symbols-outlined">check_circle</span>
+                <span>100% quiet, distraction-free environment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 3: Founder's Story & Legacy -->
+        <div class="about-block">
+          <div class="about-image-wrapper reveal-left">
+            <img src="Hero/Screenshot 2026-08-26 192344.png" alt="Shyam Library founders celebrating" class="about-img"
+              loading="lazy">
+            <div class="image-badge-floating">
+              <span class="material-symbols-outlined">favorite</span>
+              <span>Our Vision</span>
+            </div>
+          </div>
+          <div class="about-text-wrapper reveal-right">
+            <span class="section-badge" style="margin-bottom: 12px;">Our Story</span>
+            <h3 class="about-lead">Built to Support Every Student</h3>
+            <p class="about-desc">
+              Shyam Library was started with one goal: to give every student an affordable, safe, and supportive place
+              to study hard and reach their goals.
+            </p>
+            <div class="about-features-list">
+              <div class="about-feature-item">
+                <span class="material-symbols-outlined">check_circle</span>
+                <span>Friendly on-site management ready to help</span>
+              </div>
+              <div class="about-feature-item">
+                <span class="material-symbols-outlined">check_circle</span>
+                <span>Safe, welcoming, and disciplined environment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 3: FACILITIES & WOMEN'S SAFETY
+       ========================================================================= -->
+  <section class="section-spacing facilities-section" id="facilities">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header-center">
+        <span class="section-badge reveal-fade">
+          <span class="material-symbols-outlined" style="font-size: 1rem;">room_preferences</span>
+          Our Facilities
+        </span>
+        <h2 class="section-title reveal-up delay-1">Everything You Need to Study</h2>
+        <p class="section-subtitle reveal-up delay-2">
+          Clean facilities, modern amenities, and 24/7 access designed for long study hours.
+        </p>
+      </div>
+
+      <!-- Bento Grid Layout with Real Photos -->
+      <div class="bento-grid">
+        <!-- Bento Card 1: 60+ Dedicated Seats & Study Hall -->
+        <div class="bento-photo-card reveal-up delay-1">
+          <img src="photos/WhatsApp Image 2026-08-26 at 4.57.32 PM.jpeg"
+            alt="Spacious 60+ seat air-conditioned study hall" loading="lazy">
+          <div class="bento-photo-overlay">
+            <div class="bento-icon"
+              style="background: rgba(255, 255, 255, 0.2); color: var(--color-gold-light); margin-bottom: 8px; width: 42px; height: 42px;">
+              <span class="material-symbols-outlined">chair</span>
+            </div>
+            <h3>~60 Dedicated Seats</h3>
+            <p>Spacious, air-conditioned hall with personal lockers.</p>
+          </div>
+        </div>
+
+        <!-- Bento Card 2: Biometric Access & Night Security -->
+        <div class="bento-photo-card reveal-up delay-2">
+          <img src="photos/biometric.jpeg" alt="Biometric security machine at Shyam Library" loading="lazy">
+          <div class="bento-photo-overlay">
+            <div class="bento-icon"
+              style="background: rgba(255, 255, 255, 0.2); color: var(--color-gold-light); margin-bottom: 8px; width: 42px; height: 42px;">
+              <span class="material-symbols-outlined">fingerprint</span>
+            </div>
+            <h3>Biometric Security</h3>
+            <p>Automated entry and timing logs for complete peace of mind.</p>
+          </div>
+        </div>
+
+        <!-- Bento Card 3: Reading & Daily Newspapers Area -->
+        <div class="bento-photo-card reveal-up delay-3">
+          <img src="photos/reading.jpeg" alt="Student reading newspaper and books at Shyam Library" loading="lazy">
+          <div class="bento-photo-overlay">
+            <div class="bento-icon"
+              style="background: rgba(255, 255, 255, 0.2); color: var(--color-gold-light); margin-bottom: 8px; width: 42px; height: 42px;">
+              <span class="material-symbols-outlined">newspaper</span>
+            </div>
+            <h3>Reading & Newspaper Zone</h3>
+            <p>Daily newspapers, magazines, and reference library shelf.</p>
+          </div>
+        </div>
+
+        <!-- Bento Card 4 (Image Span): Real Study Pod Desk -->
+        <div class="bento-image-span reveal-up delay-1">
+          <img src="facility.png" alt="Personal study desk with light, power socket, and book" loading="lazy">
+          <div class="bento-image-overlay">
+            <span class="section-badge"
+              style="background: rgba(197, 160, 89, 0.3); color: #ffffff; border-color: rgba(255, 255, 255, 0.3); align-self: flex-start; margin-bottom: 8px;">Real
+              Workspace</span>
+            <h4>Personal Study Desk</h4>
+            <p>Equipped with reading lamp, charging points, and book space.</p>
+          </div>
+        </div>
+
+        <!-- Bento Stacked Half Components: RO Water & High-Speed Wi-Fi -->
+        <div class="bento-stacked-col reveal-up delay-2">
+          <!-- Half Card 1: Cold RO Water with Embedded Background -->
+          <div class="bento-photo-half-card">
+            <img src="photos/ro_water.png" alt="Cold purified RO drinking water purifier" loading="lazy">
+            <div class="bento-photo-half-overlay">
+              <div class="bento-icon" style="background: rgba(255, 255, 255, 0.2); color: var(--color-gold-light); margin-bottom: 6px; width: 36px; height: 36px;">
+                <span class="material-symbols-outlined" style="font-size: 1.2rem;">water_drop</span>
+              </div>
+              <h3>Cold RO Water</h3>
+              <p>Purified chilled drinking water available 24/7.</p>
+            </div>
+          </div>
+
+          <!-- Half Card 2: High-Speed Wi-Fi with Embedded Background -->
+          <div class="bento-photo-half-card">
+            <img src="photos/wifi.png" alt="High speed Wi-Fi internet router" loading="lazy">
+            <div class="bento-photo-half-overlay">
+              <div class="bento-icon" style="background: rgba(255, 255, 255, 0.2); color: var(--color-gold-light); margin-bottom: 6px; width: 36px; height: 36px;">
+                <span class="material-symbols-outlined" style="font-size: 1.2rem;">wifi</span>
+              </div>
+              <h3>High-Speed Wi-Fi</h3>
+              <p>Fast, unlimited Wi-Fi for lectures & online study.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 6 (Full Span): Comprehensive Amenities Grid -->
+        <div class="bento-full-span reveal-up delay-3">
+          <div class="amenities-header">
+            <h3 class="amenities-title">Full Amenities Included</h3>
+            <p style="font-size: 0.95rem; color: var(--color-text-muted); margin-top: 4px;">Designed to make your study
+              day comfortable and hassle-free.</p>
+          </div>
+          <div class="amenities-grid">
+            <div class="amenity-item">
+              <span class="material-symbols-outlined">restaurant</span>
+              <span class="amenity-text">Dedicated Dining Area</span>
+            </div>
+            <div class="amenity-item">
+              <span class="material-symbols-outlined">lock</span>
+              <span class="amenity-text">Personal Seat Lockers</span>
+            </div>
+            <div class="amenity-item">
+              <span class="material-symbols-outlined">desk</span>
+              <span class="amenity-text">Comfortable Chairs & Tables</span>
+            </div>
+            <div class="amenity-item">
+              <span class="material-symbols-outlined">ac_unit</span>
+              <span class="amenity-text">Full Air Conditioning (AC)</span>
+            </div>
+            <div class="amenity-item">
+              <span class="material-symbols-outlined">wc</span>
+              <span class="amenity-text">Separate Washrooms (M/F)</span>
+            </div>
+            <div class="amenity-item">
+              <span class="material-symbols-outlined">newspaper</span>
+              <span class="amenity-text">Daily Hindi & English Papers</span>
+            </div>
+            <div class="amenity-item">
+              <span class="material-symbols-outlined">menu_book</span>
+              <span class="amenity-text">Reference Books Available</span>
+            </div>
+            <div class="amenity-item">
+              <span class="material-symbols-outlined">emergency_home</span>
+              <span class="amenity-text">Emergency Exits & Fire Safety</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real Facility Gallery Tour Grid -->
+      <div class="facility-gallery-wrapper reveal-up">
+        <div style="text-align: center; margin-bottom: 32px;">
+          <span class="section-badge">
+            <span class="material-symbols-outlined" style="font-size: 1rem;">photo_library</span>
+            Photo Gallery
+          </span>
+          <h3 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--color-primary);">Inside Shyam
+            Library</h3>
+          <p style="font-size: 0.95rem; color: var(--color-text-muted); max-width: 600px; margin: 4px auto 0;">Authentic
+            photos of our study hall, desks, reading corner, and security setup.</p>
+        </div>
+
+        <div class="facility-gallery-grid">
+          <!-- Photo 1: Focused Desk -->
+          <div class="gallery-card">
+            <img src="photos/WhatsApp Image 2026-08-26 at 4.57.35 PM.jpeg"
+              alt="Student studying in private illuminated desk" loading="lazy">
+            <div class="gallery-card-overlay">
+              <h4>Private Study Cubicle</h4>
+              <p>Personal reading light & quiet study atmosphere</p>
+            </div>
+          </div>
+
+          <!-- Photo 2: Reading & Newspaper Area -->
+          <div class="gallery-card">
+            <img src="photos/reading.jpeg" alt="Reading area with daily newspapers and reference books" loading="lazy">
+            <div class="gallery-card-overlay">
+              <h4>Reading & Newspaper Zone</h4>
+              <p>Daily papers, magazines, and reference shelf</p>
+            </div>
+          </div>
+
+          <!-- Photo 3: Biometric Security -->
+          <div class="gallery-card">
+            <img src="photos/biometric.jpeg" alt="Biometric security machine at entrance" loading="lazy">
+            <div class="gallery-card-overlay">
+              <h4>Biometric Door Access</h4>
+              <p>Safe entry system with digital timing logs</p>
+            </div>
+          </div>
+
+          <!-- Photo 4: 60+ Seat Hall -->
+          <div class="gallery-card">
+            <img src="photos/WhatsApp Image 2026-08-26 at 4.57.32 PM.jpeg" alt="Wide view of Shyam Library study hall"
+              loading="lazy">
+            <div class="gallery-card-overlay">
+              <h4>Main Study Hall</h4>
+              <p>60+ spacious cubicles with AC and lockers</p>
+            </div>
+          </div>
+
+          <!-- Photo 5: Numbered Cubicle (Seat 49) -->
+          <div class="gallery-card">
+            <img src="photos/WhatsApp Image 2026-08-26 at 4.57.33 PM.jpeg" alt="Personal study cubicle seat 49"
+              loading="lazy">
+            <div class="gallery-card-overlay">
+              <h4>Reserved Seat (Seat 49)</h4>
+              <p>Dedicated lockers, sockets & ceiling cove lighting</p>
+            </div>
+          </div>
+
+          <!-- Photo 6: Focus Desk Pod -->
+          <div class="gallery-card">
+            <img src="facility.png" alt="Study desk setup with reading lamp and book" loading="lazy">
+            <div class="gallery-card-overlay">
+              <h4>Individual Focus Pod</h4>
+              <p>Comfortable desk with power sockets and lamp</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Women's Safety Special Section -->
+      <div class="safety-card reveal-up">
+        <div class="safety-header">
+          <span class="safety-badge">
+            <span class="material-symbols-outlined" style="font-size: 1rem;">verified_user</span>
+            Safe & Secure
+          </span>
+          <h3 class="safety-title">Dedicated to Women's Safety</h3>
+          <p class="safety-desc">
+            A safe, respectful, and well-lit study environment for female students, even during late night and overnight
+            shifts.
+          </p>
+        </div>
+
+        <div class="safety-grid">
+          <div class="safety-item">
+            <div class="safety-item-icon">
+              <span class="material-symbols-outlined">fingerprint</span>
+            </div>
+            <div class="safety-item-text">
+              <h4>Biometric Entry Logs</h4>
+              <p>Strict entry verification and night attendance records.</p>
+            </div>
+          </div>
+
+          <div class="safety-item">
+            <div class="safety-item-icon">
+              <span class="material-symbols-outlined">shield_person</span>
+            </div>
+            <div class="safety-item-text">
+              <h4>24/7 Secure Environment</h4>
+              <p>Well-lit surroundings and staff on-site round the clock.</p>
+            </div>
+          </div>
+
+          <div class="safety-item">
+            <div class="safety-item-icon">
+              <span class="material-symbols-outlined">wc</span>
+            </div>
+            <div class="safety-item-text">
+              <h4>Clean Separate Washrooms</h4>
+              <p>Private, clean, and regularly sanitized facilities.</p>
+            </div>
+          </div>
+
+          <div class="safety-item">
+            <div class="safety-item-icon">
+              <span class="material-symbols-outlined">emergency</span>
+            </div>
+            <div class="safety-item-text">
+              <h4>Emergency Assistance</h4>
+              <p>Quick on-site help and clear safety protocols.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 4: PRICING & MEMBERSHIP PLANS
+       ========================================================================= -->
+  <section class="section-spacing pricing-section" id="pricing">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header-center">
+        <span class="section-badge reveal-fade">
+          <span class="material-symbols-outlined" style="font-size: 1rem;">payments</span>
+          Affordable Plans
+        </span>
+        <h2 class="section-title reveal-up delay-1">Simple & Flexible Pricing</h2>
+        <p class="section-subtitle reveal-up delay-2">
+          Pick the shift that fits your routine. Affordable monthly fees with no hidden costs.
+        </p>
+      </div>
+
+      <!-- Pricing Layout (8-col / 4-col) -->
+      <div class="pricing-layout">
+        <!-- Left Column: Standard Shift Cards -->
+        <div class="pricing-shifts-grid">
+          <!-- Morning Shift -->
+          <div class="plan-card reveal-up delay-1">
+            <div>
+              <div class="plan-header">
+                <span class="material-symbols-outlined fill">wb_sunny</span>
+                <h3 class="plan-title">Morning Shift</h3>
+              </div>
+              <p class="plan-timing">6:00 AM – 2:00 PM (8 Hours)</p>
+              <ul
+                style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 20px;">
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> Reserved personal seat</li>
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> AC & cold RO water</li>
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> High-speed Wi-Fi</li>
+              </ul>
+            </div>
+            <div class="plan-price-block">
+              <span class="plan-price">₹600</span>
+              <span class="plan-period">/ month</span>
+            </div>
+          </div>
+
+          <!-- Evening Shift -->
+          <div class="plan-card reveal-up delay-2">
+            <div>
+              <div class="plan-header">
+                <span class="material-symbols-outlined fill">light_mode</span>
+                <h3 class="plan-title">Evening Shift</h3>
+              </div>
+              <p class="plan-timing">2:00 PM – 10:00 PM (8 Hours)</p>
+              <ul
+                style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 20px;">
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> Reserved personal seat</li>
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> AC & cold RO water</li>
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> High-speed Wi-Fi</li>
+              </ul>
+            </div>
+            <div class="plan-price-block">
+              <span class="plan-price">₹600</span>
+              <span class="plan-period">/ month</span>
+            </div>
+          </div>
+
+          <!-- Night Shift -->
+          <div class="plan-card reveal-up delay-3">
+            <div>
+              <div class="plan-header">
+                <span class="material-symbols-outlined fill">dark_mode</span>
+                <h3 class="plan-title">Night Shift</h3>
+              </div>
+              <p class="plan-timing">10:00 PM – 6:00 AM (8 Hours)</p>
+              <ul
+                style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 20px;">
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> Completely quiet night study
+                </li>
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> Secure biometric entry</li>
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> Full AC & Wi-Fi access</li>
+              </ul>
+            </div>
+            <div class="plan-price-block">
+              <span class="plan-price">₹300</span>
+              <span class="plan-period">/ month</span>
+            </div>
+          </div>
+
+          <!-- Full Day (Featured) -->
+          <div class="plan-card featured reveal-up delay-4">
+            <span class="featured-pill">Most Popular</span>
+            <div>
+              <div class="plan-header">
+                <span class="material-symbols-outlined fill" style="color: var(--color-gold);">workspace_premium</span>
+                <h3 class="plan-title">Full Day (24 Hours)</h3>
+              </div>
+              <p class="plan-timing">24-Hour Unlimited Access</p>
+              <ul
+                style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 20px;">
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> 24/7 seat reserved for you
+                </li>
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> Personal locker included</li>
+                <li style="display: flex; gap: 8px;"><span class="material-symbols-outlined"
+                    style="font-size: 1.1rem; color: var(--color-gold-dark);">check</span> All amenities & dining access
+                </li>
+              </ul>
+            </div>
+            <div class="plan-price-block">
+              <span class="plan-price">₹1,200</span>
+              <span class="plan-period">/ month</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Daily & Custom Plans -->
+        <div class="pricing-sidebar">
+          <!-- Daily Access -->
+          <div class="daily-pass-card reveal-up delay-2">
+            <div>
+              <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+                <span class="material-symbols-outlined" style="color: var(--color-gold-dark);">today</span>
+                <h3
+                  style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; color: var(--color-primary);">
+                  Daily Pass</h3>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--color-text-muted);">Single day study access</p>
+            </div>
+            <div style="text-align: right;">
+              <span
+                style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 700; color: var(--color-primary);">₹50</span>
+              <span style="display: block; font-size: 0.75rem; color: var(--color-text-light);">/ day</span>
+            </div>
+          </div>
+
+          <!-- Long-Term Customized Plans -->
+          <div class="custom-plans-card reveal-up delay-3">
+            <h3 class="custom-plans-title">Long-Term Plans</h3>
+            <ul class="custom-plans-list">
+              <li class="custom-plan-item">
+                <span class="material-symbols-outlined">check_circle</span>
+                <div>
+                  <strong>Monthly Booking</strong>
+                  <span>Regular study routine with fixed seat.</span>
+                </div>
+              </li>
+              <li class="custom-plan-item">
+                <span class="material-symbols-outlined">check_circle</span>
+                <div>
+                  <strong>Quarterly / Semester Plan</strong>
+                  <span>Extended 3+ month exam prep.</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="custom-plans-note">
+              <span class="material-symbols-outlined">info</span>
+              <div>
+                <strong>Discounts Available:</strong> Special discounts for 3-month and 6-month advance bookings. Call
+                or visit us to inquire.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing CTA Actions -->
+      <div class="pricing-cta-bar reveal-up">
+        <a href="#contact" class="btn btn-primary">
+          <span class="material-symbols-outlined">how_to_reg</span>
+          <span>Book Your Seat</span>
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <span class="material-symbols-outlined">call</span>
+          <span>Ask About Custom Plans</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 5: ACHIEVERS & HALL OF FAME
+       ========================================================================= -->
+  <section class="section-spacing achievers-section" id="achievers">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header-center">
+        <span class="section-badge reveal-fade">
+          <span class="material-symbols-outlined" style="font-size: 1rem;">military_tech</span>
+          Student Success
+        </span>
+        <h2 class="section-title reveal-up delay-1">Our Top Achievers</h2>
+        <p class="section-subtitle reveal-up delay-2">
+          Real students who studied at Shyam Library and achieved their dreams.
+        </p>
+      </div>
+
+      <!-- Achievers Cards Grid -->
+      <div class="achievers-grid">
+        <!-- Card 1: Ajay Kushwaha -->
+        <div class="achiever-card reveal-left">
+          <div class="achiever-photo-wrapper">
+            <img src="aaa/Ajay Kushwala.jpeg" alt="Ajay Kushwaha - Selected in Airports Authority of India"
+              class="achiever-photo" loading="lazy">
+            <div class="achiever-photo-gradient">
+              <h3 class="achiever-name">Ajay Kushwaha</h3>
+              <span class="achiever-tag">Airports Authority of India (CATC)</span>
+            </div>
+          </div>
+          <div class="achiever-body">
+            <p class="achiever-quote">
+              "The quiet atmosphere and comfortable seating at Shyam Library helped me study 10+ hours daily without
+              distractions."
+            </p>
+            <div class="achiever-footer">
+              <div class="achiever-badge">
+                <span class="material-symbols-outlined">workspace_premium</span>
+                <span>CATC Selected</span>
+              </div>
+              <span style="font-size: 0.8125rem; font-weight: 700; color: var(--color-text-light);">Civil
+                Aviation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Ankit Kumar -->
+        <div class="achiever-card reveal-right">
+          <div class="achiever-photo-wrapper">
+            <img src="aaa/Ankit Kumar.jpeg" alt="Ankit Kumar - Competitive Exam Success"
+              class="achiever-photo achiever-photo-ankit" loading="lazy">
+            <div class="achiever-photo-gradient">
+              <h3 class="achiever-name">Ankit Kumar</h3>
+              <span class="achiever-tag">Competitive Exam Success</span>
+            </div>
+          </div>
+          <div class="achiever-body">
+            <p class="achiever-quote">
+              "Shyam Library gave me the peaceful space I needed to clear my exam. Clean facilities, fast Wi-Fi, and
+              great management."
+            </p>
+            <div class="achiever-footer">
+              <div class="achiever-badge">
+                <span class="material-symbols-outlined">school</span>
+                <span>Exam Qualified</span>
+              </div>
+              <span style="font-size: 0.8125rem; font-weight: 700; color: var(--color-text-light);">Proud Student</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Words of Wisdom Quote Banner -->
+      <div class="wisdom-card reveal-up">
+        <div class="quote-mark">“</div>
+        <p class="wisdom-text">
+          Small daily efforts lead to big success.
+        </p>
+        <div class="wisdom-divider"></div>
+        <p class="wisdom-author">Robert Collier</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 6: CONTACT US & LOCATION
+       ========================================================================= -->
+  <section class="section-spacing contact-section" id="contact">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header-center">
+        <span class="section-badge reveal-fade">
+          <span class="material-symbols-outlined" style="font-size: 1rem;">contact_support</span>
+          Contact Us
+        </span>
+        <h2 class="section-title reveal-up delay-1">Visit or Book a Seat</h2>
+        <p class="section-subtitle reveal-up delay-2">
+          Have questions about shifts, seat availability, or fees? Reach out to us anytime.
+        </p>
+      </div>
+
+      <!-- Contact Layout (5-col / 7-col) -->
+      <div class="contact-layout">
+        <!-- Left Sidebar: Info & Social Cards -->
+        <div class="contact-sidebar">
+          <!-- Information Card -->
+          <div class="contact-info-card reveal-left">
+            <h3 class="contact-card-title">Contact Details</h3>
+            <ul class="contact-details-list">
+              <li class="contact-detail-item">
+                <div class="contact-icon-box">
+                  <span class="material-symbols-outlined fill">location_on</span>
+                </div>
+                <div class="contact-detail-text">
+                  <h4>Address</h4>
+                  <p>Kunraghat (Near MMMUT),<br>Gorakhpur, UP 273010</p>
+                </div>
+              </li>
+
+              <li class="contact-detail-item">
+                <div class="contact-icon-box">
+                  <span class="material-symbols-outlined fill">call</span>
+                </div>
+                <div class="contact-detail-text">
+                  <h4>Phone Number</h4>
+                  <p><a href="tel:09198753349">091987 53349</a></p>
+                </div>
+              </li>
+
+              <li class="contact-detail-item">
+                <div class="contact-icon-box">
+                  <span class="material-symbols-outlined fill">schedule</span>
+                </div>
+                <div class="contact-detail-text">
+                  <h4>Timings</h4>
+                  <p>Open 24 Hours (All 7 Days)</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social Connection Card -->
+          <a href="https://www.instagram.com/library_shyam/" target="_blank" rel="noopener noreferrer"
+            class="social-card reveal-left delay-1">
+            <div class="social-card-left">
+              <h4>Follow on Instagram</h4>
+              <p>@library_shyam • Student Updates</p>
+            </div>
+            <div class="social-icon-circle">
+              <svg style="width: 24px; height: 24px; fill: currentColor;" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg>
+            </div>
+          </a>
+        </div>
+
+        <!-- Right Side: Contact & Seat Reservation Form -->
+        <div class="contact-form-card reveal-right">
+          <h3 class="contact-card-title">Book a Seat or Send Inquiry</h3>
+          <form id="contactForm" novalidate>
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="userName" class="form-label">Your Name *</label>
+                <input type="text" id="userName" class="form-input" placeholder="e.g. Rahul Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="userEmail" class="form-label">Email Address *</label>
+                <input type="email" id="userEmail" class="form-input" placeholder="rahul@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="userPhone" class="form-label">Phone Number *</label>
+                <input type="tel" id="userPhone" class="form-input" placeholder="e.g. 9876543210" required>
+              </div>
+
+              <div class="form-group">
+                <label for="userShift" class="form-label">Preferred Shift</label>
+                <select id="userShift" class="form-select">
+                  <option value="Full Day (24 Hours) - ₹1,200">Full Day (24 Hours) - ₹1,200/mo</option>
+                  <option value="Morning (6 AM - 2 PM) - ₹600">Morning (6:00 AM – 2:00 PM) - ₹600/mo</option>
+                  <option value="Evening (2 PM - 10 PM) - ₹600">Evening (2:00 PM – 10:00 PM) - ₹600/mo</option>
+                  <option value="Night (10 PM - 6 AM) - ₹300">Night (10:00 PM – 6:00 AM) - ₹300/mo</option>
+                  <option value="Daily Pass - ₹50">Daily Pass - ₹50/day</option>
+                  <option value="Quarterly / Long-Term Plan">Quarterly / Long-Term Plan</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="userMessage" class="form-label">Message (Optional)</label>
+              <textarea id="userMessage" class="form-textarea"
+                placeholder="Tell us your target exam, preferred start date, or any questions..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span class="material-symbols-outlined">send</span>
+              <span>Send Query via WhatsApp</span>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map Showcase Card -->
+      <div class="map-card reveal-up">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.6304443187216!2d83.42850757604554!3d26.7295398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39915d004ee1675b%3A0xdb39dcbd4f8d5ef2!2sShyam%20Library!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Shyam Library Location Map">
+          </iframe>
+          <div class="map-badge-overlay">
+            <strong>Shyam Library</strong>
+            <span>Kunraghat, Gorakhpur</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand Summary -->
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+            <span class="material-symbols-outlined logo-crest fill"
+              style="color: var(--color-gold-light); font-size: 1.8rem;">local_library</span>
+            <span style="font-family: var(--font-serif); font-size: 1.6rem; font-weight: 700;">Shyam Library</span>
+          </div>
+          <p>
+            A quiet 24/7 study space with personal desks, AC, and Wi-Fi in Kunraghat, Gorakhpur near MMMUT.
+          </p>
+          <div style="display: flex; gap: 12px; margin-top: 16px;">
+            <a href="https://www.instagram.com/library_shyam/" target="_blank" rel="noopener noreferrer"
+              style="color: var(--color-gold-light);" aria-label="Instagram">
+              <svg style="width: 20px; height: 20px; fill: currentColor;" viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#pricing">Pricing Plans</a></li>
+            <li><a href="#achievers">Achievers</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Operating Hours & Contact Summary -->
+        <div class="footer-col">
+          <h4>Timings & Shifts</h4>
+          <ul class="footer-links">
+            <li style="color: var(--color-surface-high);">24/7 Access (All 7 Days)</li>
+            <li style="color: var(--color-surface-high);">Morning: 6:00 AM – 2:00 PM</li>
+            <li style="color: var(--color-surface-high);">Evening: 2:00 PM – 10:00 PM</li>
+            <li style="color: var(--color-surface-high);">Night: 10:00 PM – 6:00 AM</li>
+            <li style="margin-top: 10px;"><a href="tel:09198753349"
+                style="color: var(--color-gold-light); font-weight: 700;">📞 091987 53349</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <p>© 2026 Shyam Library. All rights reserved.</p>
+        <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top">
+          <span>Back to Top</span>
+          <span class="material-symbols-outlined" style="font-size: 1.1rem;">arrow_upward</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
