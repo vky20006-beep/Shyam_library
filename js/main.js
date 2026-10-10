@@ -211,7 +211,6 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       
       const name = document.getElementById('userName')?.value.trim();
-      const email = document.getElementById('userEmail')?.value.trim();
       const phone = document.getElementById('userPhone')?.value.trim();
       const shift = document.getElementById('userShift')?.value;
       const message = document.getElementById('userMessage')?.value.trim();
@@ -225,9 +224,6 @@ document.addEventListener('DOMContentLoaded', () => {
       let waText = `*New Seat Inquiry - Shyam Library*\n\n`;
       waText += `👤 *Name:* ${name}\n`;
       waText += `📞 *Phone:* ${phone}\n`;
-      if (email) {
-        waText += `📧 *Email:* ${email}\n`;
-      }
       if (shift) {
         waText += `⏰ *Preferred Shift:* ${shift}\n`;
       }

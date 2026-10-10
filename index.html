@@ -19,6 +19,13 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
+  <!-- Favicon & Brand Icons -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="photos/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="photos/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="photos/apple-touch-icon.png">
+  <meta property="og:image" content="photos/shyam-logo-badge.png">
+
   <!-- Unified Stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -32,7 +39,7 @@
     <div class="container nav-container">
       <!-- Brand Logo -->
       <a href="#hero" class="brand-logo" aria-label="Shyam Library Home">
-        <span class="material-symbols-outlined logo-crest fill">local_library</span>
+        <img src="photos/shyam-logo-crest.png" alt="Shyam Library Logo" class="brand-logo-img">
         <span>Shyam Library</span>
       </a>
 
@@ -63,8 +70,7 @@
   <aside class="mobile-drawer" id="mobileDrawer">
     <div style="margin-bottom: 24px;">
       <a href="#hero" class="brand-logo" style="color: var(--color-primary);">
-        <span class="material-symbols-outlined logo-crest fill"
-          style="color: var(--color-gold-dark);">local_library</span>
+        <img src="photos/shyam-logo-crest.png" alt="Shyam Library Logo" class="brand-logo-img">
         <span>Shyam Library</span>
       </a>
       <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-top: 4px;">Quiet 24/7 Study Space</p>
@@ -109,6 +115,11 @@
     <!-- Hero Content Overlay -->
     <div class="container">
       <div class="hero-content">
+        <!-- Hero Logo Emblem -->
+        <div class="hero-logo-wrapper reveal-fade">
+          <img src="photos/shyam-logo-crest.png" alt="Shyam Library Official Logo" class="hero-logo-emblem">
+        </div>
+
         <!-- Inspiring Quote Banner (Seamless) -->
         <div class="hero-quote-card reveal-fade">
           <blockquote class="hero-quote-text">&#8220;A quiet place. A focused mind. A brighter future.&#8221;</blockquote>
@@ -881,28 +892,21 @@
               </div>
 
               <div class="form-group">
-                <label for="userEmail" class="form-label">Email Address *</label>
-                <input type="email" id="userEmail" class="form-input" placeholder="rahul@example.com" required>
-              </div>
-            </div>
-
-            <div class="form-grid-2">
-              <div class="form-group">
                 <label for="userPhone" class="form-label">Phone Number *</label>
                 <input type="tel" id="userPhone" class="form-input" placeholder="e.g. 9876543210" required>
               </div>
+            </div>
 
-              <div class="form-group">
-                <label for="userShift" class="form-label">Preferred Shift</label>
-                <select id="userShift" class="form-select">
-                  <option value="Full Day (24 Hours) - ₹1,200">Full Day (24 Hours) - ₹1,200/mo</option>
-                  <option value="Morning (6 AM - 2 PM) - ₹600">Morning (6:00 AM – 2:00 PM) - ₹600/mo</option>
-                  <option value="Evening (2 PM - 10 PM) - ₹600">Evening (2:00 PM – 10:00 PM) - ₹600/mo</option>
-                  <option value="Night (10 PM - 6 AM) - ₹300">Night (10:00 PM – 6:00 AM) - ₹300/mo</option>
-                  <option value="Daily Pass - ₹50">Daily Pass - ₹50/day</option>
-                  <option value="Quarterly / Long-Term Plan">Quarterly / Long-Term Plan</option>
-                </select>
-              </div>
+            <div class="form-group">
+              <label for="userShift" class="form-label">Preferred Shift</label>
+              <select id="userShift" class="form-select">
+                <option value="Full Day (24 Hours) - ₹1,200">Full Day (24 Hours) - ₹1,200/mo</option>
+                <option value="Morning (6 AM - 2 PM) - ₹600">Morning (6:00 AM – 2:00 PM) - ₹600/mo</option>
+                <option value="Evening (2 PM - 10 PM) - ₹600">Evening (2:00 PM – 10:00 PM) - ₹600/mo</option>
+                <option value="Night (10 PM - 6 AM) - ₹300">Night (10:00 PM – 6:00 AM) - ₹300/mo</option>
+                <option value="Daily Pass - ₹50">Daily Pass - ₹50/day</option>
+                <option value="Quarterly / Long-Term Plan">Quarterly / Long-Term Plan</option>
+              </select>
             </div>
 
             <div class="form-group">
@@ -944,9 +948,8 @@
       <div class="footer-top">
         <!-- Brand Summary -->
         <div class="footer-brand">
-          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
-            <span class="material-symbols-outlined logo-crest fill"
-              style="color: var(--color-gold-light); font-size: 1.8rem;">local_library</span>
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px;">
+            <img src="photos/shyam-logo-crest.png" alt="Shyam Library Logo" class="footer-logo-img">
             <span style="font-family: var(--font-serif); font-size: 1.6rem; font-weight: 700;">Shyam Library</span>
           </div>
           <p>
